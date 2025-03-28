@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+}
+.box-1{
+    
+    width: 300px;
+    background-color: violet;
+    font-size:50px;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+    border: 10px dotted yellow;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display:inline
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: background-color 0.3s, color 3.0s;;
+}
+header {
+    
+    background-color: #333;
+    font-size:18px;
+    padding: 20px 50px 10px 60px;
+    text-align: center;
+}
+nav {
+    background-color: #555;
+    
+}
+main section{
+    margin-top: 11px;
+    background-color: #f9f9f9;
+    border: 10px ;
+    padding: 10px 5px 10px 10px;
+}
+
+main article {
+    margin-top: 11px;
+    background-color: #f9f9f9;
+    border: 10px ;
+    padding: 10px 5px 10px 10px
+}
+ main aside   {
+    margin-top: 11px;
+    background-color: #f9f9f9;
+    border: 10px ;
+    padding: 10px 5px 10px 10px;
+}
+main aside ul {
+    
+    padding: 10px 20px 10px 33px;
+
+}
+main footer {
+    background-color: #333;
+    font-size:18px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+
+.Top-flex-container {
+    width: 300;
+    height: 200px;
+    padding: 0px 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction:row;
+}
+ 
+ 
+.Home-daw {
+    width: 200px;
+    height: 200px;
+    order: 1;
+    flex-grow: 2;
+}
+ 
+.About-us-daw{
+    width: 200px;
+    height: 200px;
+    order: -1;
+    flex-shrink: 1;
+}
+
+.MotherBig {
+    width: 300;
+    height: 200px;
+    padding: 0px 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction:row;
+    flex:0 0 0 25%;
+}
+ 
+ 
+.Related-link {
+    width: 200px;
+    height: 200px;
+    order: 1;
+    flex-grow: 2;
+}
+ 
+.Collab {
+    width: 200px;
+    height: 200px;
+    order: -1;
+    flex-shrink: 1;
+}
+
+.Main_content {
+    width: 300;
+    height: 200px;
+    padding: 0px 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction:column;
+    
+}
+ 
+ 
+.SectionKo{
+    width: 200px;
+    height: 200px;
+    order: 1;
+    flex-grow: 2;
+}
+ 
+.ArticleKo {
+    width: 200px;
+    height: 200px;
+    order: -1;
+    flex-shrink: 1;
+}
+.ka-ina-inahan{
+  
+    padding: 0px 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction:row;
+}
+
+.right-cheeck {
+    width: 200px;
+    height: 200px;
+    order: -1;
+    flex-shrink: 1;
+    border: solid #333;
+}
+.Left-cheeck{
+    width: 200px;
+    height: 200px;
+    order: 1;
+    flex-grow: 2;
+}
+ 
